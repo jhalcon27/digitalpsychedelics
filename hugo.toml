@@ -1,0 +1,19 @@
+baseURL = 'https://digitalpsychedelics.com/'
+languageCode = 'en-us'
+title = 'Digital Psychedelics'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "dark"
+    ShowReadingTime = true
+    ShowShareButtons = true
+    
+    [params.homeInfoParams]
+        Title = "Digital Psychedelics"
+        Content = "Exploring the intersection of Futurism, Virtual Reality, and Consciousness."
+
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/posts"
+        weight = 10
